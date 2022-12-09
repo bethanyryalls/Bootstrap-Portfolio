@@ -1,0 +1,29 @@
+html {
+font-size: 62.5%;
+}
+
+/* Additional Navigation Styles */
+.justifyEnd {
+justify-content: flex-end;
+}
+
+#navLogo {
+    height: 50px;
+    margin-left: 20px;
+}
+
+.nav-item a {
+    font-size: 1.1rem;
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 0.3rem;
+    font-weight: 500;
+}
+
+.dark {
+    background-color: #242323;
+}
+
+.nav-item {
+    margin-right: 20px;
+}
