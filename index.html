@@ -17,12 +17,12 @@
     <title>Bootstrap Portfolio</title>
 </head>
 
-<body>
+<header>
 
     <!--Navigation-->
     <nav class="navbar navbar-expand-lg dark">
         <a class="navbar-brand" href="#">
-            <img id="navLogo" src="images/br-logo.png">
+            <img id="navLogo" src="images/br-logo.png" alt="B and R in serif font displayed as logo">
         </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
             aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -32,10 +32,13 @@
         <div class="collapse navbar-collapse justifyEnd" id="navbarSupportedContent">
             <ul class="navbar-nav">
                 <li class="nav-item">
-                    <a class="nav-link text-light" href="about">About</a>
+                    <a class="nav-link text-light" href="work">Work</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link text-light" href="work">Work</a>
+                    <a class="nav-link text-light" href="skills">Skills</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-light" href="about">About</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link text-light" href="contact">Contact</a>
@@ -43,6 +46,28 @@
             </ul>
         </div>
     </nav>
+
+    <!--Hero Section using Jumbotron-->
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="heroImg col-sm-12 col-md-3 jumbotron">
+                <img src="images/bethany-ryalls.jpg" alt="Bethany Ryalls">
+            </div>
+            <div class="jumbotron col-sm-12 col-md-9">
+                <h1 class="display-4">Bethany Ryalls</h1>
+                <p class="lead">I am passionate about human-centered design, interaction and understanding people. 
+                    Something that really drives me is having empathy towards the challenges that people are presented 
+                    with, helping them find solutions through intuitive design and insightful interaction.</p>
+                <p class="lead">
+                    <a class="btn btn-dark btn-lg" href="#" role="button">Learn more</a>
+                </p>
+            </div>
+        </div>
+    </div>
+
+</header>
+
 </body>
 
 </html>

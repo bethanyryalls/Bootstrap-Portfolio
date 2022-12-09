@@ -1,19 +1,33 @@
-html {
-font-size: 62.5%;
+h1, h2, h3, h4, h5, h6 {
+    margin-bottom: 1rem;
+}
+
+.center {
+    margin: 0 auto;
+}
+
+.justifyEnd {
+    justify-content: flex-end;
+    }
+
+    p {
+        font-family: 'Roboto', sans-serif;
+        font-weight: 300;
+        margin-bottom: 1.5rem;
+    }
+
+.lead {
+    font-size: 1rem;
 }
 
 /* Additional Navigation Styles */
-.justifyEnd {
-justify-content: flex-end;
-}
-
 #navLogo {
     height: 50px;
     margin-left: 20px;
 }
 
 .nav-item a {
-    font-size: 1.1rem;
+    font-size: 0.6rem;
     text-transform: uppercase;
     font-family: 'Roboto', sans-serif;
     letter-spacing: 0.3rem;
@@ -26,4 +40,29 @@ justify-content: flex-end;
 
 .nav-item {
     margin-right: 20px;
+}
+
+/* Jumbotron Hero Styles */
+
+.jumbotron {
+    border-radius: 0;
+    background-color: #fffaf4;
+}
+
+.jumbotron img {
+    max-width: 100%;
+    border: 1px solid #242323;
+}
+
+.btn {
+    font-size: 0.6rem;
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 0.3rem;
+    font-weight: 500;
+    padding: 20px 30px;
+    background-color: transparent;
+    border: 1px solid #242323;
+    color: #242323;
+    border-radius: 0;
 }
