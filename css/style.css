@@ -25,13 +25,26 @@ h1, h2, h3, h4, h5, h6 {
     background-color:#fffaf4;
 }
 
+.btn {
+    font-size: 0.6rem;
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 0.3rem;
+    font-weight: 500;
+    padding: 20px 30px;
+    background-color: transparent;
+    border: 1px solid #242323;
+    color: #242323;
+    border-radius: 0;
+}
+
 /* Styling dark elements */
 .dark {
     background-color: #242323;
     color: #fffaf4;
 }
 
-.dark .btn {
+.darkBtn {
     font-size: 0.6rem;
     text-transform: uppercase;
     font-family: 'Roboto', sans-serif;
@@ -44,15 +57,15 @@ h1, h2, h3, h4, h5, h6 {
     border-radius: 0;
 }
 
-.btn {
+.darkBtn:hover, .darkBtn:focus, .darkBtn:active {
     font-size: 0.6rem;
     text-transform: uppercase;
     font-family: 'Roboto', sans-serif;
     letter-spacing: 0.3rem;
     font-weight: 500;
     padding: 20px 30px;
-    background-color: transparent;
-    border: 1px solid #242323;
+    background-color: #fffaf4;
+    border: 1px solid #fffaf4;
     color: #242323;
     border-radius: 0;
 }
@@ -93,4 +106,10 @@ h1, h2, h3, h4, h5, h6 {
 
 .heroImg, .heroText {
     margin: auto;
+}
+
+/* Work Card Styling */
+
+.card {
+    border: 1px solid #242323;
 }
