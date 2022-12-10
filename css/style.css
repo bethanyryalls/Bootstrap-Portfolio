@@ -143,3 +143,21 @@ h1, h2, h3, h4, h5, h6 {
 #skills ul li:nth-child(1) {
     margin-bottom: 20px;
 }
+
+/* Contact/Footer Section Styling */
+
+.contactBtn {
+    box-shadow: 4px 8px 8px hsl(0deg 0% 0% / 70%);
+}
+
+.contactBtn:hover {
+    box-shadow: none;
+}
+
+.footerLink a:hover {
+    text-decoration: none;
+}
+
+.footerLink:hover {
+    transform: scale(1.1);
+}
