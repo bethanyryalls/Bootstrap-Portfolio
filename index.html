@@ -66,48 +66,94 @@
 </header>
 
 <main>
+
+    <!--Work/Project Section using Bootstrap cards-->
+    <!--Bootstrap padding classes for responsive padding-->
     <section class="container-fluid py-4" id="work">
-        <div class="row firstCard pb-4">
+        <div class="row pb-4">
             <div class="col-sm-12 col-md-12">
                 <div class="card">
                     <a href="https://bethanyryalls.github.io/bootcamp-challenge-1" target="_blank">
-                        <img class="card-img-top" src="images/code-refractor.jpg" alt="group of collegues looking at paperwork and laptop on a table">
+                        <img class="card-img-top" src="images/code-refractor.jpg"
+                            alt="group of collegues looking at paperwork and laptop on a table">
                     </a>
                     <div class="card-body dark">
-                        <h2 class="card-title">Refracting Code</h2>
-                        <p class="card-text">Code refractor challenge for a marketing agency who wanted their codebase to 
+                        <h3 class="card-title">Refracting Code</h3>
+                        <p class="card-text">Code refractor challenge for a marketing agency who wanted their codebase
+                            to
                             follow accessibility standards and be optimised for search engines.</p>
-                        <a href="https://bethanyryalls.github.io/bootcamp-challenge-1" target="_blank" class="btn darkBtn">View Website</a>
+                        <a href="https://bethanyryalls.github.io/bootcamp-challenge-1" target="_blank"
+                            class="btn darkBtn">View Website</a>
                     </div>
                 </div>
             </div>
         </div>
+        <!--Card group used with h-100 class for equal height columns in row on all devices and screen sizes-->
         <div class="row">
             <div class="card-group">
+                <!--Bootstrap spacing classes used for responsive padding-->
+                <div class="col-sm-12 col-md-6 pb-sm-4 pb-md-0">
+                    <div class="card h-100">
+                        <a href="https://bethanyryalls.github.io/prework-study-guide" target="_blank">
+                            <img class="card-img-top" src="images/prework-study-guide.jpg"
+                                alt="bootcamp study guide website">
+                        </a>
+                        <div class="card-body dark">
+                            <h3 class="card-title">Bootcamp Study Guide</h3>
+                            <p class="card-text">A website for students of the Front End Developer Bootcamp to record
+                                their notes.</p>
+                            <a href="https://bethanyryalls.github.io/prework-study-guide" target="_blank"
+                                class="btn darkBtn">View Website</a>
+                        </div>
+                    </div>
+                </div>
                 <div class="col-sm-12 col-md-6">
-                <div class="card h-100">
-                    <a href="https://bethanyryalls.github.io/prework-study-guide" target="_blank">
-                        <img class="card-img-top" src="images/prework-study-guide.jpg" alt="bootcamp study guide website">
-                    </a>
-                  <div class="card-body dark">
-                    <h2 class="card-title">Bootcamp Study Guide</h2>
-                    <p class="card-text">A website for students of the Front End Developer Bootcamp to record their notes throughout the study sessions.</p>
-                    <a href="https://bethanyryalls.github.io/prework-study-guide" target="_blank" class="btn darkBtn">View Website</a>
-                  </div>
+                    <div class="card h-100">
+                        <a href="https://bethanyryalls.github.io/bethany-ryalls-portfolio" target="_blank">
+                            <img class="card-img-top" src="images/bethany-ryalls-portfolio.jpg" alt="portfolio website">
+                        </a>
+                        <div class="card-body dark">
+                            <h3 class="card-title">HTML/CSS Portfolio</h3>
+                            <p class="card-text">A personal portfolio website built using HTML and CSS, with about,
+                                project and contact sections.</p>
+                            <a href="https://bethanyryalls.github.io/bethany-ryalls-portfolio" target="_blank"
+                                class="btn darkBtn">View Website</a>
+                        </div>
+                    </div>
                 </div>
-                </div>
-                <div class="col-sm-12 col-md-6">
-                <div class="card h-100">
-                    <a href="https://bethanyryalls.github.io/bethany-ryalls-portfolio" target="_blank">
-                        <img class="card-img-top" src="images/bethany-ryalls-portfolio.jpg" alt="portfolio website">
-                    </a>
-                  <div class="card-body dark">
-                    <h2 class="card-title">HTML/CSS Personal Portfolio</h2>
-                    <p class="card-text">A personal portfolio website built using HTML and CSS, with about, project and contact sessions</p>
-                    <a href="https://bethanyryalls.github.io/bethany-ryalls-portfolio" target="_blank" class="btn darkBtn">View Website</a>
-                  </div>
-                </div>
-                </div>
+            </div>
+    </section>
+
+    <!--Skills section using bootstrap list groups-->
+    <section class="container-fluid" id="skills">
+        <div class="title">
+            <h2>Skills</h2>
+        </div>
+        <div class="row">
+            <div class="col-6 col-sm-6 col-md-3">
+                <ul class="list-items">
+                    <li class="list-item">HTML + CSS</li>
+                    <li class="list-item">JavaScript</li>
+                </ul>
+            </div>
+            <div class="col-6 col-sm-6 col-md-3">
+                <ul class="list-items">
+                    <li class="list-item">Bootstrap</li>
+                    <li class="list-item">Git + Github</li>
+                </ul>
+            </div>
+            <div class="col-6 col-sm-6 col-md-3">
+                <ul class="list-items">
+                    <li class="list-item">React.js</li>
+                    <li class="list-item">jQuery</li>
+                </ul>
+            </div>
+            <div class="col-6 col-sm-6 col-md-3">
+                <ul class="list-items">
+                    <li class="list-item">Node</li>
+                    <li class="list-item">APIs</li>
+                </ul>
+            </div>
         </div>
     </section>
 </main>
