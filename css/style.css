@@ -8,6 +8,10 @@ h1, h2, h3, h4, h5, h6 {
     margin: 0 auto;
 }
 
+.textCenter {
+    text-align: center;
+}
+
 .justifyEnd {
     justify-content: flex-end;
     }
@@ -112,4 +116,14 @@ h1, h2, h3, h4, h5, h6 {
 
 .card {
     border: 1px solid #242323;
+}
+
+/* Skills Section Styling */
+
+#skills ul {
+    list-style-type: none;
+}
+
+#skills ul li:nth-child(1) {
+    margin-bottom: 20px;
 }
