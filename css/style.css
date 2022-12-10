@@ -1,5 +1,7 @@
+/* Global Styles */
 h1, h2, h3, h4, h5, h6 {
     margin-bottom: 1rem;
+    font-family: 'Roboto', sans-serif;
 }
 
 .center {
@@ -23,6 +25,38 @@ h1, h2, h3, h4, h5, h6 {
     background-color:#fffaf4;
 }
 
+/* Styling dark elements */
+.dark {
+    background-color: #242323;
+    color: #fffaf4;
+}
+
+.dark .btn {
+    font-size: 0.6rem;
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 0.3rem;
+    font-weight: 500;
+    padding: 20px 30px;
+    background-color: transparent;
+    border: 1px solid #fffaf4;
+    color: #fffaf4;
+    border-radius: 0;
+}
+
+.btn {
+    font-size: 0.6rem;
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 0.3rem;
+    font-weight: 500;
+    padding: 20px 30px;
+    background-color: transparent;
+    border: 1px solid #242323;
+    color: #242323;
+    border-radius: 0;
+}
+
 /* Additional Navigation Styles */
 #navLogo {
     height: 50px;
@@ -35,10 +69,6 @@ h1, h2, h3, h4, h5, h6 {
     font-family: 'Roboto', sans-serif;
     letter-spacing: 0.3rem;
     font-weight: 500;
-}
-
-.dark {
-    background-color: #242323;
 }
 
 .nav-item {
@@ -59,19 +89,6 @@ h1, h2, h3, h4, h5, h6 {
 .heroImg img {
     max-width: 100%;
     border: 1px solid #242323;
-}
-
-.btn {
-    font-size: 0.6rem;
-    text-transform: uppercase;
-    font-family: 'Roboto', sans-serif;
-    letter-spacing: 0.3rem;
-    font-weight: 500;
-    padding: 20px 30px;
-    background-color: transparent;
-    border: 1px solid #242323;
-    color: #242323;
-    border-radius: 0;
 }
 
 .heroImg, .heroText {
