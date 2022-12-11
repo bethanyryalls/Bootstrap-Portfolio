@@ -1,9 +1,15 @@
 /* Global Styles */
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     margin-bottom: 0;
     font-family: 'Roboto', sans-serif;
 }
 
+/*Custom classes for minified css usage */
 .center {
     margin: 0 auto;
 }
@@ -18,19 +24,33 @@ h1, h2, h3, h4, h5, h6 {
 
 .justifyEnd {
     justify-content: flex-end;
-    }
-
-    p {
-        font-family: 'Roboto', sans-serif;
-        font-weight: 300;
-    }
-
-.lead {
-    font-size: 1rem;
 }
 
 .bg-pale {
-    background-color:#fffaf4;
+    background-color: #fffaf4;
+}
+
+.flexCol {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.flexRow {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+/* Customising bootstrap classes */
+
+p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+}
+
+.lead {
+    font-size: 1rem;
 }
 
 .btn {
@@ -44,18 +64,6 @@ h1, h2, h3, h4, h5, h6 {
     border: 1px solid #242323;
     color: #242323;
     border-radius: 0;
-}
-
-.flexCol {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.flexRow {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
 }
 
 /* Styling dark elements */
@@ -77,7 +85,9 @@ h1, h2, h3, h4, h5, h6 {
     border-radius: 0;
 }
 
-.darkBtn:hover, .darkBtn:focus, .darkBtn:active {
+.darkBtn:hover,
+.darkBtn:focus,
+.darkBtn:active {
     font-size: 0.6rem;
     text-transform: uppercase;
     font-family: 'Roboto', sans-serif;
@@ -124,7 +134,8 @@ h1, h2, h3, h4, h5, h6 {
     border: 1px solid #242323;
 }
 
-.heroImg, .heroText {
+.heroImg,
+.heroText {
     margin: auto;
 }
 
