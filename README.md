@@ -15,7 +15,7 @@ The goals for the project include:
 7. Include a footer with links to contact me
 8. Minimise the use of media queries
 
-To visit the website, [please click this link.](https://bethanyryalls.github.io/bootstrap-portfolio/)
+To visit the website, [please click this link.](https://bethanyryalls.github.io/Bootstrap-Portfolio/)
 
 ## Table of Contents
 
@@ -33,7 +33,7 @@ The following screenshot shows the full webpage and it's content
 
 ### Users
 
-To visit the website, [please click this link.](https://bethanyryalls.github.io/bootstrap-portfolio/)
+To visit the website, [please click this link.](https://bethanyryalls.github.io/Bootstrap-Portfolio/)
 
 You will be directed to the webpage where you can navigate through the content using the header links. You can click on the project cards to view the project applications. You will also be able to inspect the code using the developer inspector and review the HTML, CSS and Bootstrap features.
 
